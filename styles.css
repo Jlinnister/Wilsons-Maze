@@ -47,14 +47,98 @@ body {
   background: #000;
 }
 
+span {
+  color: #00BCD4;
+}
+
 div {
   color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 .title {
   display: relative;
   text-align: center;
   color: white;
+  font-size: 36px;
+  padding-top: 50px;
+}
+
+.sub-title {
+  display: relative;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.options-container {
+  position: absolute;
+  height: 100%;
+  left: 10%;
+  top: 40%;
+}
+
+.speed {
+  padding-bottom: 5px;
+}
+
+.speed-subtitle {
+  text-transform: none;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.size {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.size-subtitle {
+  text-transform: none;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.generate-button {
+  display: relative;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+#generate-button {
+  border: 0;
+  color: white;
+  background-color: transparent;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  line-height: 19px;
+  margin-top: 20px;
+  -webkit-transition: background 200ms; /* Safari */
+  transition: background 200ms;
+  transition-timing-function: linear;
+  cursor: pointer;
+}
+
+#size {
+  border: 0;
+  color: black;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  -webkit-transition: background 200ms; /* Safari */
+  transition: background 200ms;
+  transition-timing-function: linear;
+}
+
+.color {
+  padding-top: 20px;
 }
 
 .maze-container {
