@@ -57,6 +57,15 @@ div {
   text-transform: uppercase;
 }
 
+p {
+  color: black;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 12px;
+  text-transform: none;
+}
+
+}
+
 .title {
   display: relative;
   text-align: center;
@@ -76,6 +85,8 @@ div {
 
 .options-container {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   height: 100%;
   left: 10%;
   top: 40%;
@@ -139,10 +150,74 @@ div {
 
 .color {
   padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.color-subtitle {
+  text-transform: none;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.color-selectors {
 }
 
 #gradient-color-one {
   margin-right: 10px;
+}
+
+/* modal*/
+#modal-button {
+  border: 0;
+  color: white;
+  background-color: transparent;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  line-height: 19px;
+  margin-top: 20px;
+  -webkit-transition: background 200ms; /* Safari */
+  transition: background 200ms;
+  transition-timing-function: linear;
+  cursor: pointer;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .maze-container {
