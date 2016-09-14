@@ -141,6 +141,10 @@ div {
   padding-top: 20px;
 }
 
+#gradient-color-one {
+  margin-right: 10px;
+}
+
 .maze-container {
   display: flex;
   justify-content: center;
