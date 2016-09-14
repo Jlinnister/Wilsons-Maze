@@ -29,7 +29,20 @@
     <div id="modal" class="modal">
       <div class="modal-content">
         <span class="close">x</span>
-        <p>Some text in the Modal..</p>
+        <h2>The Perfect Maze</h2>
+        <p>Not all mazes are created equal. A perfect maze is one in which there are no enclosed areas, no loops and no closed circuits. Perfect mazes are tougher to solve.
+           Not all perfect mazes are created equal either. Characteristics that differentiate how they are generated include the algorithm type, the memory and time that it requires,
+           whether it is bias-free (randomness) and uniformity (all possible mazes are generated equally). This simulation renders a maze using Wilson's Algorithm, a tree type algorithm that is one of the few ways to create a bias free and
+           uniform maze.
+        </p>
+        <br>
+        <h2>Wilon's Algorithm</h2>
+        <p>The creation of the maze utilizes Wilson's Algorithm. Cells in white depict portions of the maze that have been set while the branch in blue represents the current random walk
+           attempting to generate the next section of the maze. First, the starting cell is added to the maze (initially colored green). Next, a cell is chosen that is not already part of
+          the maze to begin a random walk (shown in blue). This branch randomally selects directions to travel until it has either encountered itself, in which case it will erase the branch
+          up to that point and continue randomally branching, or until it has hit a section of the maze. The branch is added to the maze by redrawing the directions into each cell that the branch
+          traversed. This is why the rendering is slow to start off when the maze is small. The next branch chooses a vertex that is not already part of the maze until all vertices have been drawn.</p>
+
       </div>
     </div>
   </div>

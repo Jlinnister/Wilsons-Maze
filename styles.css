@@ -57,13 +57,19 @@ div {
   text-transform: uppercase;
 }
 
+h2 {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
 p {
   color: black;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 12px;
   text-transform: none;
-}
-
+  line-height: 16px;
 }
 
 .title {
@@ -196,21 +202,24 @@ p {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 30%; /* Could be more or less, depending on screen size */
+    position: relative;
 }
 
-/* The Close Button */
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    border: 0;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    outline: none;
+
 }
 
 .close:hover,
