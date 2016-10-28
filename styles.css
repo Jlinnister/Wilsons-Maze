@@ -130,7 +130,7 @@ p {
 #generate-button {
   border: 0;
   color: white;
-  background-color: transparent;
+  background-color: #111111;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
@@ -176,7 +176,7 @@ p {
 #modal-button {
   border: 0;
   color: white;
-  background-color: transparent;
+  background-color: #111111;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
